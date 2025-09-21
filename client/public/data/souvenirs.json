@@ -1,0 +1,29 @@
+
+{
+  "textiles": [
+    { "name": "Tussar Silk Saree", "description": "A famous silk produced in Jharkhand, known for its rich texture and natural deep gold colour.", "image": "https://picsum.photos/seed/saree/400/300" },
+    { "name": "Kuchai Silk", "description": "A fine variant of Tussar silk, organically produced in the Kuchai region.", "image": "https://picsum.photos/seed/kuchai/400/300" }
+  ],
+  "pottery": [
+    { "name": "Handmade Terracotta Toys", "description": "Traditional clay toys handcrafted by local artisans.", "image": "https://picsum.photos/seed/toys/400/300" }
+  ],
+  "metal_crafts": [
+    { "name": "Dhokra Art", "description": "Non-ferrous metal casting using the lost-wax casting technique, an ancient art form.", "image": "https://picsum.photos/seed/dhokra/400/300" }
+  ],
+  "jewellery": [
+    { "name": "Tribal Silver Jewellery", "description": "Unique and ornate jewellery designs inspired by tribal culture and nature.", "image": "https://picsum.photos/seed/jewellery/400/300" }
+  ],
+  "painting": [
+    { "name": "Paitkar Painting", "description": "A traditional scroll painting form of Jharkhand, depicting life and afterlife.", "image": "https://picsum.photos/seed/paitkar/400/300" },
+    { "name": "Sohrai Art", "description": "A mural art form practiced by tribal women during harvest festivals.", "image": "https://picsum.photos/seed/sohrai/400/300" }
+  ],
+  "carpentry": [
+    { "name": "Wooden Toys of Manjusha", "description": "Colourful and vibrant wooden toys and decorative items.", "image": "https://picsum.photos/seed/woodentoy/400/300" }
+  ],
+  "sculptures": [
+    { "name": "Stone Carvings", "description": "Intricate sculptures made from local stone, often depicting deities and folklore.", "image": "https://picsum.photos/seed/stone/400/300" }
+  ],
+  "plant_nursery": [
+    { "name": "Medicinal Plants Saplings", "description": "Saplings of local medicinal plants known for their use in traditional remedies.", "image": "https://picsum.photos/seed/plant/400/300" }
+  ]
+}

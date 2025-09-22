@@ -4,16 +4,16 @@ import { getFirestore } from "firebase/firestore";
 import { getDatabase } from "firebase/database";
 import { getAnalytics } from "firebase/analytics";
 
-// Perfect Firebase configuration from Firebase - Auth folder
+// Firebase configuration using environment variables
 const firebaseConfig = {
-  apiKey: "AIzaSyCNKRHAHaWS806hqnxlPZ2ZGyqfuTjr7qk",
-  authDomain: "genai-973e8.firebaseapp.com",
-  databaseURL: "https://genai-973e8-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "genai-973e8",
-  storageBucket: "genai-973e8.firebasestorage.app",
-  messagingSenderId: "775058576088",
-  appId: "1:775058576088:web:67e1008f8134f479c3fdad",
-  measurementId: "G-X2DX6W8R1S"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 // Safe Firebase initialization with complete setup

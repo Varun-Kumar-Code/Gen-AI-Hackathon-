@@ -5,7 +5,8 @@
       "src": "client/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "dist"
+        "distDir": "dist",
+        "framework": "vite"
       }
     }
   ],
@@ -14,5 +15,6 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ]
+  ],
+  "outputDirectory": "client/dist"
 }

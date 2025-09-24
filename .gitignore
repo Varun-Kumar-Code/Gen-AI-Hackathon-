@@ -3,5 +3,6 @@ node_modules
 server/public
 vite.config.ts.*
 *.tar.gz
+.env/local
 # Don't ignore dist for Vercel deployment
 # dist
